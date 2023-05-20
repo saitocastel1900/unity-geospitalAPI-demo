@@ -32,7 +32,7 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
     using UnityEngine.XR.ARSubsystems;
 #if UNITY_ANDROID
 
-  using UnityEngine.Android;
+    using UnityEngine.Android;
 #endif
 
     /// <summary>
