@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample/Scenes/Geospatial.unity
-    guid: 1ed15e9657253406185e4b2c7c5a4fc4
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/AR_Fukuoka/Sample.unity
+    path: Assets/Sample02.unity
     guid: da99496e563a46c4ba76657f49c37153
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
