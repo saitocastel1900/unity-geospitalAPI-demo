@@ -682,11 +682,12 @@ MonoBehaviour:
   _outputText: {fileID: 1821932173}
   HeaddingThredshold: 25
   HorizontalThreadshold: 20
-  Latitude: 35.56690769622371
-  Longitude: 139.3547506709216
+  Latitude: 35.56685169194397
+  Longitude: 139.3549386063974
   Altitude: 0
   Heading: 0
-  ContentPrefab: {fileID: 139116, guid: 56103d137be1dcf4187f7d7eec5aaa89, type: 3}
+  ContentPrefab: {fileID: 2319386834228601735, guid: 8c70dd7df44b24ace8956778faa97d84,
+    type: 3}
 --- !u!4 &1399516068
 Transform:
   m_ObjectHideFlags: 0

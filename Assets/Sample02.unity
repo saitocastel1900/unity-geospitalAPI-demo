@@ -671,7 +671,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1399516068}
   - component: {fileID: 1399516066}
-  - component: {fileID: 1399516069}
+  - component: {fileID: 1399516070}
   m_Layer: 0
   m_Name: VPS_DEMO
   m_TagString: Untagged
@@ -709,7 +709,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1399516069
+--- !u!114 &1399516070
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -718,7 +718,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1399516065}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 740630d371f0c4e7390be9cc54ef05cd, type: 3}
+  m_Script: {fileID: 11500000, guid: 43ff3f419566e594e8bf1648ccec0c14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   EarthManager: {fileID: 632573482}
@@ -727,7 +727,8 @@ MonoBehaviour:
   HeadingThreshold: 25
   HorizontalThreshold: 20
   RaycastManager: {fileID: 632573484}
-  ContentPrefab: {fileID: 139116, guid: 56103d137be1dcf4187f7d7eec5aaa89, type: 3}
+  ContentPrefab: {fileID: 2319386834228601735, guid: 8c70dd7df44b24ace8956778faa97d84,
+    type: 3}
   AnchorManager: {fileID: 632573483}
 --- !u!1 &1601744369
 GameObject:
