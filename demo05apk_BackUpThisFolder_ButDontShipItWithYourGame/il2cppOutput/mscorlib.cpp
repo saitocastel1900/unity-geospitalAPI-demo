@@ -4291,6 +4291,12 @@ IL2CPP_EXTERN_C int32_t DEFAULT_CALL SystemNative_ReadLink(char*, uint8_t*, int3
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL SystemNative_Stat2(char*, FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2*);
 #endif
 #if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_System_INTERNAL
+IL2CPP_EXTERN_C uint32_t DEFAULT_CALL SystemNative_GetEGid();
+#endif
+#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_System_INTERNAL
+IL2CPP_EXTERN_C uint32_t DEFAULT_CALL SystemNative_GetEUid();
+#endif
+#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_System_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL SystemNative_LChflagsCanSetHiddenFlag();
 #endif
 #if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_System_INTERNAL
@@ -5180,6 +5186,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sys_Stat_m335FF7F9EF8D4ADB75EFEF43655
 	// Marshaling cleanup of parameter '___path0' native representation
 	il2cpp_codegen_marshal_free(____path0_marshaled);
 	____path0_marshaled = NULL;
+
+	return returnValue;
+}
+// System.UInt32 Interop/Sys::GetEGid()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Sys_GetEGid_m3CC143731AC972DB0889EE1F4E7D0F8A1C11ED06 (const RuntimeMethod* method) 
+{
+	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	uint32_t returnValue = reinterpret_cast<PInvokeFunc>(SystemNative_GetEGid)();
+
+	return returnValue;
+}
+// System.UInt32 Interop/Sys::GetEUid()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Sys_GetEUid_mE5EDB029C9CD81EF3AB026AFBA509FDDBA02A9AA (const RuntimeMethod* method) 
+{
+	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	uint32_t returnValue = reinterpret_cast<PInvokeFunc>(SystemNative_GetEUid)();
 
 	return returnValue;
 }

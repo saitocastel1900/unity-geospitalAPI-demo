@@ -14,6 +14,10 @@ public class TestAPI : MonoBehaviour
     /// </summary>
     [SerializeField] private string _lat = "35.566902";
 
+    [SerializeField] private GameObject a;
+    
+    [SerializeField] private GameObject b;
+    
     private string _geoid;
         
     private string _altitude;

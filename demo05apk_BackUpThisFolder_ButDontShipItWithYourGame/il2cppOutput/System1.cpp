@@ -1310,7 +1310,7 @@ struct ConcurrentDictionary_2_tE0296B741D9F887264D805ED46C4249B8F5EFC9C  : publi
 struct ConcurrentDictionary_2_tE0296B741D9F887264D805ED46C4249B8F5EFC9C_StaticFields
 {
 	// System.Boolean System.Collections.Concurrent.ConcurrentDictionary`2::s_isValueWriteAtomic
-	bool ___s_isValueWriteAtomic_7;
+	bool ___s_isValueWriteAtomic_9;
 };
 
 // System.Collections.Generic.Dictionary`2<System.String,System.String>
