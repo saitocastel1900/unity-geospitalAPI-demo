@@ -76,8 +76,9 @@ namespace AR_Fukuoka
                     Quaternion quaternion = Quaternion.AngleAxis(180f - (float) Heading, Vector3.up);
 
                     //指定した位置のアンカーを作成
-                    ARGeospatialAnchor anchor = _anchorManager.AddAnchor(Latitude, Longitude, Altitude, quaternion);
-
+                     //ARGeospatialAnchor anchor = _anchorManager.AddAnchor(Latitude, Longitude, Altitude, quaternion);
+                    ARGeospatialAnchor anchor = _anchorManager.ResolveAnchorOnTerrain(Latitude, Longitude, 1, quaternion);
+                    
                     if (anchor != null)
                     {
                         _displayObject = Instantiate(ContentPrefab, anchor.transform);
